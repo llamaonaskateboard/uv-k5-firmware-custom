@@ -642,7 +642,6 @@ void UI_DisplayCenterLine(void)
 		#endif
 
 		#ifdef ENABLE_SHOW_CHARGE_LEVEL
-			else
 			if (g_charging_with_type_c)
 			{	// show the battery charge state
 				if (
